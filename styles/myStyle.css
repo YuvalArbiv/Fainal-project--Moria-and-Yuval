@@ -1,21 +1,41 @@
 ﻿body 
 {
     direction:rtl;
-    background-color: rgba(0, 255, 247, 0.6)
+    margin: 0;
+    background-color: rgba(206, 255, 247, 0.71)
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+main {
+    text-align: right;
+    padding: 20px; /* זה יוצר מרווח פנימי לטקסט, כך שהוא לעולם לא ייחתך */
 }
 nav ul {
     list-style-type: none; 
     padding: 0;
     text-align: center;
+    margin: 10.5px;
 }
 nav ul li {
     display: inline-block; 
-    margin: 0 15px;
+    margin: 0 auto;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    border: black solid 1px;
+    padding:10px 30px;
+
 }
 #container {
-    width: 500px;
+    width: 800px;
     margin: 0 auto;
+    margin-top: 0;   /* זה מבטיח שהלבן צמוד למעלה */
     background-color: white;
-    padding: 20px;
-    border: 1px solid #cccccc;
+    padding-top: 20px; /* זה נותן את ה"אוויר" לחלק העליון של התפריט בתוך הלבן */
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
 }
