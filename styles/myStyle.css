@@ -177,3 +177,14 @@ li{
 .welcome-section h2 {
     margin-top: 0;
 }
+.title-with-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.title-with-icon img {
+    width: 30px;
+    height: 30px;
+}
