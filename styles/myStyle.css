@@ -183,8 +183,16 @@ li{
     justify-content: center;
     gap: 10px;
 }
-
-.title-with-icon img {
-    width: 30px;
-    height: 30px;
+#heroTitle{
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:15px;
 }
+
+#heroTitle img{
+    width:500px;
+    max-width:90%;
+    background:none;
+
+}
+
